@@ -1,0 +1,45 @@
+.App {
+  padding: 2rem;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #0D52C1;
+}
+
+.linktr{
+  order: -1;
+  padding: 1.75rem;
+  text-align: center;
+}
+
+.linktr__goal{
+  background-color: rgb(209, 246, 255);
+  color: rgb(8, 49, 112);
+  box-shadow: rgb(8 49 112 / 24%) 0px 2px 8px 0px;
+  border-radius: 2rem;
+  padding: .5rem 1.25rem;
+}
+
+@media (min-width: 1024px){
+  .linktr{
+    position: absolute; 
+    right: 1rem; 
+    bottom: 1rem;
+  }
+}
+
+.r-link{
+  --uirLinkTextColor: var(--rLinkTextColor);
+  display: var(--uirLinkDisplay) !important;
+  color: var(--uirLinkTextColor) !important;
+  --uirLinkDisplay: var(--rLinkDisplay, inline-flex);
+  text-decoration: var(--uirLinkTextDecoration) !important;
+  --uirLinkTextDecoration: var(--rLinkTextDecoration, none);
+}
