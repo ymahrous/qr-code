@@ -1,7 +1,5 @@
 import QRCode from "react-qr-code";
 
-const LiveQRCode = ({ value }) => {
+export default function LiveQRCode({ value }) {
     return <QRCode value={value} />
 };
-
-export default LiveQRCode;

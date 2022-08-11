@@ -4,11 +4,21 @@
 }
 
 a {
-  text-decoration: none;
   color: #000;
+  margin: .5rem;
+  text-decoration: none;
   transition: color 0.2s ease;
 }
 
 a:hover {
   color: #0D52C1;
+}
+
+.below-qr {
+  max-width: 900;
+}
+
+input {
+  margin: .5rem;
+  width: 12em;
 }
